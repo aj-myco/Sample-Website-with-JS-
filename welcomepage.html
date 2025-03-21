@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="welcomepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="images/website 2.2.png" type="image/x-icon">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <img src="images/website 2.2.png" alt="Logo" class="logo">
+        <h1>M-Tech Website</h1>
+    </div>
+    <div class="container">
+        <main class="main-content">
+            <h1>Welcome to<span> M-tech Website!</span></h1> <br>
+            <p>Thank you for visiting our website. Click below to enter the main page.</p> <br>
+            <a href="home.html" onclick="event.preventDefault(); window.location.href='home.html';">
+                <button style="padding: 10px 20px; background-color: #002754; color: white; border: none; border-radius: 5px; cursor: pointer;">Enter</button>
+            </a>
+        </main>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100015010084830"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://x.com/ajinomoto_17?s=21"><img src="images/twitter.png" alt="X"></a>
+            <a href="https://www.instagram.com/eaizei_/profilecard/?igsh=MTV4dGFrOWZneDJzcA=="><img src="images/social.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@ajmycoestor6358"><img src="images/youtube.png" alt="YouTube"></a>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-content">
+            <nav class="nav-links">
+                <a href="home.html" onclick="event.preventDefault(); loadContent('home');">Home</a>
+                <a href="about.html" onclick="event.preventDefault(); loadContent('about');">About</a>
+                <a href="#" onclick="event.preventDefault(); loadContent('contact');">Contact</a>
+            </nav>
+            <p>© 2025 M-Tech Site. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
